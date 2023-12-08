@@ -1,51 +1,77 @@
-body {
+.cabeçalho{background-color: gray;
+padding: 20px;}
 
-}
+nav{position: absolute;
+   top: 110px;
+right: 0;}
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
-}
+nav li{display: inline;
+margin:0 0 0 15PX;}
 
-#banner {
-    width: 100%;
-}
+nav a:hover {color: deeppink;
+          }
 
-h1 {
-    text-align: center
-}
+nav a {text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;}
 
-p {
-    text-align: center;
-}
 
-#missao {
-    font-size: 20px
-}
+.caixa{position: relative;
+       width: 940px;
+       margin: 0 auto;}
 
-strong {
-    color: red;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-}
-ul {
+ .produtos{
+    width: 940px;
+    margin: o auto;
+   
+ }        
+   
+ 
+ .produtos li{
     display: inline-block;
+    text-align: center;
+    width: 27%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5;
+    padding: 30 px 20px;
+    border-radius: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+
 }
 
-.imagembeneficios {
-    width: 50%;
+
+.produtos li:hover {
+    border-color: deeppink;
 }
+
+.produtos li:active{
+    border-color: deeppink;
+}
+ 
+.produtos h2{
+    border-color: deeppink;
+}
+
+
+.produtos h2{
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.descrição{
+   font-size: 18px;
+
+}
+
+.preço{
+font-size: 22px;
+font-weight: bold;
+
+}
+
+footer{background-color: black;
+       text-align: center;
+    color: aliceblue;}
